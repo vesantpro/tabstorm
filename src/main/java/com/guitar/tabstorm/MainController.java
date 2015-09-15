@@ -26,7 +26,7 @@ public class MainController {
         res.put("About us", "/about/");
 
         model.addAttribute("message", res);
-        return "tabstorm";
+        return "index";
 
     }
 
